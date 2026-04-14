@@ -1,0 +1,337 @@
+@media (max-width: 1024px) {
+    div.navbar,
+    div.container,
+    .footer-inner {
+        width: 88%;
+    }
+
+    div.navbar ul li {
+        margin: 0 10px;
+    }
+
+    div.home {
+        gap: 30px;
+        margin: 120px 0 80px;
+    }
+
+    .drone-img {
+        width: 46%;
+        height: 420px;
+    }
+
+    div.drone-body {
+        width: 50%;
+    }
+
+    div.drone-body h1 {
+        font-size: 40px;
+    }
+
+    div.drone-price .price1 {
+        font-size: 34px;
+    }
+
+    div.drone-price .price2 {
+        font-size: 22px;
+    }
+
+    div.add-btn button {
+        padding: 16px;
+    }
+
+    div.add-btn button a {
+        font-size: 17px;
+    }
+
+    .compare-table-wrapper {
+        padding: 20px;
+    }
+
+    table thead th {
+        padding: 30px 16px;
+        font-size: 16px;
+    }
+
+    table tbody td {
+        padding: 14px 16px;
+        font-size: 14px;
+    }
+
+    .reviews-layout {
+        gap: 20px;
+    }
+
+    .rating-sidebar {
+        width: 280px;
+    }
+
+    .products-wrap {
+        margin-right: -16px;
+    }
+
+    .product-card {
+        float: left;
+        width: calc(50% - 16px);
+        margin-right: 16px;
+        margin-bottom: 16px;
+    }
+
+    .footer-inner {
+        width: 88%;
+    }
+
+    .footer-brand {
+        float: left;
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .footer-brand p {
+        max-width: 100%;
+    }
+
+    .footer-col {
+        float: left;
+        width: calc(33.33% - 14px);
+        margin-right: 20px;
+    }
+
+    .footer-col:last-child {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    div.navbar,
+    div.container,
+    .footer-inner {
+        width: 92%;
+    }
+
+    div.navbar {
+        flex-direction: column;
+        gap: 12px;
+        padding: 14px 0;
+    }
+
+    div.navbar ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 4px;
+    }
+
+    div.navbar ul li {
+        margin: 0 6px;
+    }
+
+    div.navbar ul li a {
+        font-size: 13px;
+    }
+
+    div.home {
+        flex-direction: column;
+        margin: 170px 0 60px;
+        gap: 24px;
+    }
+
+    .drone-img {
+        width: 100%;
+        height: 340px;
+    }
+
+    div.drone-body {
+        width: 100%;
+    }
+
+    div.drone-body h1 {
+        font-size: 36px;
+    }
+
+    div.drone-price .price1 {
+        font-size: 30px;
+    }
+
+    div.drone-price .price2 {
+        font-size: 18px;
+    }
+
+    .compare-table-wrapper {
+        padding: 12px;
+        font-size: 13px;
+    }
+
+    table thead th {
+        padding: 20px 10px;
+        font-size: 13px;
+    }
+
+    table tbody td {
+        padding: 12px 10px;
+        font-size: 13px;
+    }
+
+    table img {
+        width: 16px;
+        height: 16px;
+    }
+
+    .winner-center {
+        padding: 16px;
+        font-size: 14px;
+    }
+
+    .reviews-layout {
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .rating-sidebar {
+        width: 100%;
+        position: static;
+    }
+
+    .rating-stats {
+        flex-direction: row;
+    }
+
+    .reviews-list {
+        width: 100%;
+    }
+
+    .products-wrap {
+        margin-right: -14px;
+    }
+
+    .product-card {
+        float: left;
+        width: calc(50% - 14px);
+        margin-right: 14px;
+        margin-bottom: 14px;
+    }
+
+    .product-img-wrap {
+        height: 200px;
+    }
+
+    .footer-brand {
+        width: 100%;
+        float: none;
+        margin-right: 0;
+        margin-bottom: 28px;
+    }
+
+    .footer-col {
+        float: left;
+        width: calc(50% - 10px);
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+
+    .footer-col:last-child {
+        margin-right: 0;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        gap: 16px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    div.navbar {
+        padding: 10px 0;
+    }
+
+    div.navbar ul li a {
+        font-size: 12px;
+    }
+
+    div.home {
+        margin: 210px 0 50px;
+    }
+
+    div.drone-body h1 {
+        font-size: 28px;
+    }
+
+    div.drone-price {
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+
+    div.drone-price .price1 {
+        font-size: 26px;
+    }
+
+    div.drone-price .price2 {
+        font-size: 16px;
+    }
+
+    div.add-btn button {
+        padding: 14px;
+    }
+
+    div.add-btn button a {
+        font-size: 15px;
+    }
+
+    .section-title {
+        font-size: 22px;
+    }
+
+    table thead th {
+        padding: 14px 8px;
+        font-size: 12px;
+    }
+
+    table tbody td {
+        padding: 10px 8px;
+        font-size: 12px;
+    }
+
+    table thead th small {
+        display: none;
+    }
+
+    .rating-big .num {
+        font-size: 50px;
+    }
+
+    .review-card {
+        padding: 18px;
+    }
+
+    .review-top {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .review-right {
+        text-align: left;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .product-card {
+        float: none;
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .footer-col {
+        float: none;
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .footer-bottom p {
+        font-size: 12px;
+    }
+
+    .payment-icons img {
+        height: 22px;
+    }
+}
